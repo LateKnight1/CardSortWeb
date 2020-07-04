@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AccountPageComponent } from './account-page/account-page.component';
+import {AccountRoutingModule} from './account-routing.module';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [AccountPageComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    AccountRoutingModule
   ]
 })
-// @ts-ignore
 export class AccountModule { }
